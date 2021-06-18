@@ -1,5 +1,5 @@
 const CACHE_NAME = "v1_cache_taniaapp",
-  urlsToCache = ["./", "./style.css", "./script.js", "./cumple.png","./images/tiempo_32.png"];
+  urlsToCache = ["./", "./style.css", "./script.js", "./cumple.jpg","./images/tiempo_32.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(

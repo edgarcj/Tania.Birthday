@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("./cumple.jpg");
+	background-size: cover;
+        background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+        color:rgb(204, 204, 204);
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+.texto {
+        text-align: center;
+        font-size: 2rem;
+        height: auto;
+        position: relative;
+        top: 3vh;
+}
+
+h1{
+	font-weight: normal;
+	font-size: 4rem;
+        flex-grow: 1;
+        flex-shrink: 1;
+	margin-top: 5rem;
+        border-radius: 1rem;
+        display: flex;
+        width: 80%;
+        overflow: hidden;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(121, 52, 98, 0.733);
+}
+
+.countdown-container {
+	display: flex;
+        flex-grow: 1;
+        flex-shrink: 1;
+	flex-wrap: wrap;
+	justify-content: center;
+        width: 80%;
+        overflow: hidden;
+        background-color: rgba(121, 52, 98, 0.733);
+        border-radius: 1rem;
+}
+
+
+.big-text {
+	font-weight: bold;
+	font-size: 6rem;
+	line-height: 1;
+	margin: 0 2rem;
+}
+
+.countdown-el {
+	text-align: center;
+}
+
+.countdown-el span {
+	font-size: 1.3rem;
+}
+
+
+

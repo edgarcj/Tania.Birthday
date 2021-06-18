@@ -29,7 +29,7 @@ function countdown() {
   if (totalSeconds <= 0) {
     containerEl.innerHTML = `<p class="texto">🎊🍾 ¡Feliz cumpleaños Tania🎊, festejemos tu vida, hoy y siempre! ⏩ No importa lo que pase, sé que siempre voy a contar contigo y tu conmigo. ¡Feliz cumpleaños a una persona tan excepcional como tú! ⏩ Eres esa amiga que esta en las buenas y en las malas, gracias por tantos años de amistad 🎂 🎉 <br>💐❤️🤗<br> <strong>Te Quiero Mucho Tania </strong>  </p> `;
 
-    tituloEl.innerHTML = `<strong>🎁!!Felicidades Tania¡¡🍰</strong>`;
+    tituloEl.innerHTML = `<strong>🎁Felicidades Tania🍰</strong>`;
   }
 }
 

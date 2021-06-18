@@ -13,7 +13,7 @@ body{
 	justify-content: center;
 	min-height: 100vh;
         color:rgb(204, 204, 204);
-	font-family: sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin: 0px;
 }
 
@@ -31,10 +31,12 @@ h1{
         flex-grow: 1;
         flex-shrink: 1;
 	margin-top: 5rem;
+	height: auto;
         border-radius: 1rem;
         display: flex;
-        width: 90%;
-        overflow: hidden;
+        width: 95%;
+	flex-direction: column;
+        overflow: scroll;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
@@ -48,9 +50,10 @@ h1{
 	flex-wrap: wrap;
 	justify-content: center;
         width: 80%;
-        overflow: hidden;
+        overflow: scroll;
         background-color: rgba(121, 52, 98, 0.733);
         border-radius: 1rem;
+        margin-bottom: 3rem ;
 }
 
 
